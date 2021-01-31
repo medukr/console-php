@@ -5,5 +5,10 @@
         "illuminate/database": "^8.25",
         "symfony/var-dumper": "^5.2",
         "fzaninotto/faker": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "."
+        }
     }
 }
